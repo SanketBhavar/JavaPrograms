@@ -11,7 +11,6 @@ class Animal{
 		System.out.println("Animal is Breathing");
 	}
 }
-
 class Tiger extends Animal{
 	void eat() {
 		System.out.println("Tiger is Hunt and Eat");
