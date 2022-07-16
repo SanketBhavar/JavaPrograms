@@ -16,34 +16,28 @@ class Tiger extends Animal{
 		System.out.println("Tiger is Hunt and Eat");
 	}
 }
-
 class Deer extends Animal{
 	void eat() {
-		System.out.println("deer is graze and Eat");
+		System.out.println("Deer is Graze and Eat");
 	}
 }
-
 class Monkey extends Animal{
 	void eat() {
-		System.out.println("Monkey is steals and Eat");
+		System.out.println("Monkey is Steals and Eat");
 	}
 }
-
 public class AnimalApp {
 	public static void main(String[] args) {
 		Tiger t = new Tiger();
 		Deer d = new Deer();
 		Monkey m = new Monkey();
-		
 		t.eat();
 		t.sleep();
 		t.breath();
-		
 		System.out.println();
 		d.eat();
 		d.sleep();
 		d.breath();
-		
 		System.out.println();
 		m.eat();
 		m.sleep();
