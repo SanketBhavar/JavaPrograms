@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class ArithmeticExample {
 	public static void main( String[] args) 
 	{
-		int a;
+	    int a;
 	    int b;
 	    int c;
-	    System.out.println("Enter values of A, B, C=>");
-	    
+	    System.out.println("Enter values of A, B, C => ");
 	    Scanner sc = new Scanner(System.in);
 	    a= sc.nextInt();
 	    b= sc.nextInt();
