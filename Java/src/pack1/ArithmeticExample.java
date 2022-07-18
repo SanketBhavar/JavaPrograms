@@ -14,6 +14,7 @@ public class ArithmeticExample {
 	    b= sc.nextInt();
 	    c= sc.nextInt();
 	    System.out.println(a*b+c);
+	    System.out.println(a+b-c);
 	    sc.close();
 	}
 }
