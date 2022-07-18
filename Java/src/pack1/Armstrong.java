@@ -6,7 +6,7 @@ public class Armstrong {
 	public static void main(String[] args) {
 		int n,n1,sum,digit;
 		Scanner scan=new Scanner(System.in);
-		System.out.println("Enter a number");
+		System.out.println("Enter a Number");
 		n=scan.nextInt();
 		n1=n;
 		sum=0;
@@ -17,10 +17,10 @@ public class Armstrong {
 		}
 		if(n1==sum)
 		{
-			System.out.println("The no. is an Armstrong no.");
+			System.out.println("The Number is an Armstrong Number");
 		}
 		else {
-			System.out.println("The no. is a not Armstrong no.");
+			System.out.println("The Number is a not Armstrong Number");
 		}
 		scan.close();
 	}
