@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrayExample {
 	public static void main(String[] args) {
-		int marks[];
+	    int marks[];
 	    marks= new int[5];
 	    Scanner input= new Scanner(System.in);
 	    marks[0]=input.nextInt();
@@ -15,7 +15,7 @@ public class ArrayExample {
 
 	    int rollNumber;
 	    rollNumber=input.nextInt();
-	    System.out.println("The student with roll number "+rollNumber+" has scored "+marks[rollNumber]+" marks");
+	    System.out.println("The Student with Roll Number "+rollNumber+" has scored "+marks[rollNumber]+" marks");
 	    input.close();
 	}
 }
