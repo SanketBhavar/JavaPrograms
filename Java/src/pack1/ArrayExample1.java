@@ -1,6 +1,6 @@
 package pack1;
 
-import java.lang.Math;
+
 
 public class ArrayExample1 {
 	public static void main(String[] args) { 
@@ -10,7 +10,7 @@ public class ArrayExample1 {
 			array[i]=Math.round(array[i]);
 		}
 		for(int i = 0; i <  array.length; i++) {
-			System.out.print(array[i] + " ");
+			System.out.print("array[i] + " ");
 		}
 	}
 }
