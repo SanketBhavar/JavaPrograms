@@ -30,10 +30,7 @@ public class ArrayExample11 {
 				if(array2[j]>temp3)
 					temp3 = array2[j];
 
-		if(temp3 == -1)
-			System.out.println("Not Possible\n");
-		else
-			System.out.println(temp3);
+		
 		
 		s.close();
 	}
