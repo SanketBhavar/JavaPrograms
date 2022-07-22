@@ -30,8 +30,6 @@ public class ArrayExample11 {
 				if(array2[j]>temp3)
 					temp3 = array2[j];
 
-		
-		
-		s.close();
+				s.close();
 	}
 }
