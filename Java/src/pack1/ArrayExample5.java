@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrayExample5 {
 	public static void main(String[] args) {
-		System.out.println("Enter the no. of elements :");
+	System.out.println("Enter the no. of elements :");
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         int i = 0;
@@ -27,12 +27,10 @@ public class ArrayExample5 {
                     break;
                 }
         }
-        
         System.out.println("sorted array ");
         for (i = 0; i < n; i++) {
             System.out.println(arr[i]);
         }
-		
-        input.close();
+	input.close();
     }
 }
