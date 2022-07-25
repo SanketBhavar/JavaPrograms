@@ -32,6 +32,7 @@ public class ArrayExample5 {
         for (i = 0; i < n; i++) {
             System.out.println(arr[i]);
         }
+		
         input.close();
     }
 }
