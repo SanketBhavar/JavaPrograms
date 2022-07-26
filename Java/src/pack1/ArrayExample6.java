@@ -12,7 +12,7 @@ public class ArrayExample6 {
 				array[i + 1] = array[i];
 				i--;
 			}
-			array[i + 1] = key;
+		array[i + 1] = key;
 		}
 	}
 	public static void main(String[] args) {
@@ -22,8 +22,11 @@ public class ArrayExample6 {
 		for (int i = 0; i < size; i++) {
 			array[i] = scanner.nextInt();
 		}
-		
+		// Sort in descending order
+		insertionSortDescending(array);
+		for (int i=0; i < array.length; i++) {
+			System.out.println(array[i]);
 		}
-		
+		scanner.close();
 	}
 }
