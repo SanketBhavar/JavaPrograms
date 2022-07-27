@@ -17,9 +17,9 @@ public class ArrayExample8 {
         return numbers;
     }
     private static int[] merge(int[] numbers, int i, int m, int j) {
-        int l = i; //inital index of first subarray
-        int r = m + 1; // initial index of second subarray
-        int k = 0; // initial index of merged array
+        int l = i; 
+        int r = m + 1; 
+        int k = 0; 
         int[] t = new int[numbers.length];
 
         while (l <= m && r <= j) {
