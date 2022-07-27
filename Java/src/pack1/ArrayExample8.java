@@ -17,9 +17,9 @@ public class ArrayExample8 {
         return numbers;
     }
     private static int[] merge(int[] numbers, int i, int m, int j) {
-        int l = i; 
-        int r = m + 1; 
-        int k = 0; 
+        int l = i;      // Inital index of first subarray
+        int r = m + 1;  // Initial index of second subarray
+        int k = 0;      // Initial index of merged array
         int[] t = new int[numbers.length];
 
         while (l <= m && r <= j) {
@@ -33,13 +33,13 @@ public class ArrayExample8 {
                 r++;
             }
         }
-        // Copy the remaining elements on left half , if there are any
+        // Copy the remaining elements on Left half, if there are any
         while (l <= m) {
             t[k] = numbers[l];
             k++;
             l++;
         }
-        // Copy the remaining elements on right half , if there are any
+        // Copy the remaining elements on Right half, if there are any
         while (r <= j) {
             t[k] = numbers[r];
             k++;
