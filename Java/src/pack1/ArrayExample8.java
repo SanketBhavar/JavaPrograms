@@ -4,10 +4,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayExample8 {
-	public static int[] sort(int[] randomNumbers) {
+    public static int[] sort(int[] randomNumbers) {
 		return mergeSort(randomNumbers, 0, randomNumbers.length - 1);
-    }
-	public static int[] mergeSort(int[] numbers, int first, int last) {
+    	}
+    public static int[] mergeSort(int[] numbers, int first, int last) {
         if (first < last) {
             int mid = (first + last) / 2;
             mergeSort(numbers, first, mid);
