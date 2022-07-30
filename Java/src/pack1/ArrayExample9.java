@@ -1,12 +1,14 @@
 package pack1;
 
+import java.lang.Array;
+
 public class ArrayExample9 {
 	public static void quickSort(int[] ar, int start, int end) {
 		if (start < end) {
 			int p = partition(ar, start, end);
-            quickSort(ar, 0, p - 1);
-            quickSort(ar, p + 1, end);
-        }
+           		quickSort(ar, 0, p - 1);
+           		quickSort(ar, p + 1, end);
+       		}
     }
     public static int partition(int[] ar, int start, int end) {
         int pivot = ar[end];
@@ -34,7 +36,7 @@ public class ArrayExample9 {
     {
         int ar[] = {2, 4, 6, 8,  10, 12, 14, 16, 18, 20};
         quickSort(ar, 0, ar.length - 1);
+	System.out.println("Quick Sort");
         printArray(ar);
-    }
-	
+    }	
 }
