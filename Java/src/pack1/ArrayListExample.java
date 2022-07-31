@@ -9,6 +9,8 @@ public class ArrayListExample {
 		random.add(4);
 		random.add(5);
 		random.add(10);
+		
+		
 		random.add(99);                             //Command for adding a new element
 		printArray(random);
 	}
