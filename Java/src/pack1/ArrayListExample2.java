@@ -10,7 +10,6 @@ public class ArrayListExample2 {
 		reverseArrayList(list);
 		for (int i = 0; i < list.size(); i++)
 			System.out.print(list.get(i) + " ");
-		s.close();
 	}
 	
 	static void reverseArrayList(ArrayList<Integer> list) {
