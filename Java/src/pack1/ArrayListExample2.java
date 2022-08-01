@@ -1,8 +1,5 @@
 package pack1;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class ArrayListExample2 {
 	public static void main(String args[]) {
 		Scanner s = new Scanner(System.in);
@@ -15,7 +12,7 @@ public class ArrayListExample2 {
 			System.out.print(list.get(i) + " ");
 		s.close();
 	}
-	// Method to reverse the ArrayList
+	
 	static void reverseArrayList(ArrayList<Integer> list) {
 		int leftIndex = 0, rightIndex = list.size() - 1;
 		int temp;
