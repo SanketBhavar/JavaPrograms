@@ -7,7 +7,7 @@ abstract class Bird{
 
 class Sparrow extends Bird{
 	void fly() {
-		System.out.println("Sparrow fly very fast");
+		System.out.println("Sparrow fly Very Fast");
 	}
 	void eat() {
 		System.out.println("Sparrow eats Insects");
@@ -16,29 +16,29 @@ class Sparrow extends Bird{
 
 class Crow extends Bird{
 	void fly() {
-		System.out.println("Crow fly at medium height");
+		System.out.println("Crow fly at Medium Height");
 	}
 	void eat() {
-		System.out.println("Crow eats flesh");
+		System.out.println("Crow eats Flesh");
 	}
 }
 
 abstract class Eagle  extends Bird{
 	void fly() {
-		System.out.println("All eagle fly very high");
+		System.out.println("All eagle fly Very High");
 	}
 	abstract void eat();
 }
 
 class SerpentEagle extends Eagle{
 	void eat() {
-		System.out.println("Serpent eagle eats snake");
+		System.out.println("Serpent eagle eats Snake");
 	}
 }
 
 class GoldenEagle extends Eagle{
 	void eat() {
-		System.out.println("Golden Eagle hunts over the occean");
+		System.out.println("Golden Eagle hunts over the Occean");
 	}
 }
  
@@ -59,10 +59,13 @@ public class BirdApp {
 		
 		s1.allowBirds(s);
 		System.out.println();
+		
 		s1.allowBirds(c);
 		System.out.println();
+		
 		s1.allowBirds(se);
 		System.out.println();
+		
 		s1.allowBirds(ge);
 	}
 }
