@@ -9,7 +9,6 @@ public class ArrayListExample12 {
 		random.add(10f);
 		random.add(99.9f);
 		random.add(101f);
-
 		iterateAltn(random);
 	}
 	public static void iterateAltn(List<Float> num) {
