@@ -1,9 +1,5 @@
 package pack1;
 
-import java.util.List;
-import java.util.ArrayList;
-import java.util.ListIterator;
-
 public class ArrayListExample12 {
 	public static void main(String[] args) {
 		List<Float> random = new ArrayList<Float>();
