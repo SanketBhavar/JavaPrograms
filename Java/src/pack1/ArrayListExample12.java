@@ -1,5 +1,9 @@
 package pack1;
 
+import java.util.List;
+import java.util.ArrayList;
+import java.util.ListIterator;
+
 public class ArrayListExample12 {
 	public static void main(String[] args) {
 		List<Float> random = new ArrayList<Float>();
@@ -14,7 +18,7 @@ public class ArrayListExample12 {
 	public static void iterateAltn(List<Float> num) {
 		ListIterator<Float> it = num.listIterator();
 		while(it.hasNext()) {
-			System.out.println(it.next());
+			System.out.println(it.next());      //Iterate the ArrayList Elements using ListIterator
 		}
 	}
 }
