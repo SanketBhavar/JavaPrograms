@@ -1,7 +1,5 @@
 package pack1;
 
-import java.util.Scanner;
-
 public class CafeApp {
 	public static void main(String args[]){
 		 int code;
@@ -25,6 +23,5 @@ public class CafeApp {
 		default:
 		     System.out.println("Drink not Available");
 		}
-	input.close();
 	}
 }
