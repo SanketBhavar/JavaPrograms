@@ -1,5 +1,7 @@
 package pack1;
 
+import java.util.Scanner;
+
 public class CafeApp {
 	public static void main(String args[]){
 		 int code;
@@ -9,19 +11,20 @@ public class CafeApp {
 		 
 		switch(code) {
 		case 1 :
-		      System.out.println("Preparing Cappuccino");
+		      System.out.println("Preparing Cappuccino..!");
 		      break;
 		case 2:
-		      System.out.println("Preparing Espresso");
+		      System.out.println("Preparing Espresso..!");
 		      break;
 		case 3:
-		      System.out.println("Preparing Latte");
+		      System.out.println("Preparing Latte..!");
 		      break;
 		case 4:
-		      System.out.println("Preparing Milk");
+		      System.out.println("Preparing Milk..!");
 		      break;
 		default:
-		     System.out.println("Drink not Available");
+		     System.out.println("Drink not Available..?");
 		}
+	input.close();
 	}
 }
