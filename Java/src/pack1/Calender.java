@@ -1,6 +1,6 @@
 package pack1;
 
-import java.util.Scanner;
+
 
 public class Calender {
 	public static void main(String args[]) {
@@ -54,6 +54,6 @@ public class Calender {
 		} else {
 			System.out.print("Ohhh! It's a work day :|");
 		}
-		scan.close();
+		
 	}	
 }
