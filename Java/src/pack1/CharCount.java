@@ -1,8 +1,5 @@
 package pack1;
 
-import java.io.IOException;
-import java.util.Scanner;
-
 public class CharCount {
 	public static void main(String[] args) throws IOException {
 		String s1;
@@ -23,6 +20,5 @@ public class CharCount {
 			}
 		}
 		System.out.println(count);
-		scan.close();
 	}
 }
