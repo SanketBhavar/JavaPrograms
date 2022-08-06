@@ -1,5 +1,8 @@
 package pack1;
 
+import java.io.IOException;
+import java.util.Scanner;
+
 public class CharCount {
 	public static void main(String[] args) throws IOException {
 		String s1;
@@ -16,8 +19,10 @@ public class CharCount {
 		{
 			if(s1.charAt(i)==ch)
 			{
-				count++;
+				count++;		//count the number of occurrences in a string
 			}
 		}
-		System.out.println(count);
+		System.out.println("Number of occurrences in a String: " +count);
+		scan.close();
 	}
+}
