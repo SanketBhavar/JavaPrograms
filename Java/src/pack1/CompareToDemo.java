@@ -1,7 +1,5 @@
 package pack1;
 
-
-
 public class CompareToDemo {
 	public static void main(String[] args) {
 		String s1,s2;
@@ -18,7 +16,6 @@ public class CompareToDemo {
 		}
 		else {
 			System.out.println("s1 is not equal to s2");
-		}
-		
+		}		
 	}
 }
