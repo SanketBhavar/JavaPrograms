@@ -9,6 +9,3 @@ public static float area(float radius){
         return 3.141f * radius * radius;
     }
 }
-
-
-
