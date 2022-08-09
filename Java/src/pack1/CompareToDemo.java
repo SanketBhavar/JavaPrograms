@@ -1,6 +1,6 @@
 package pack1;
 
-import java.util.Scanner;
+
 
 public class CompareToDemo {
 	public static void main(String[] args) {
@@ -19,6 +19,6 @@ public class CompareToDemo {
 		else {
 			System.out.println("s1 is not equal to s2");
 		}
-		scan.close();
+		
 	}
 }
