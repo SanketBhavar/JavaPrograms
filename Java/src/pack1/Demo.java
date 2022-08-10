@@ -1,4 +1,5 @@
 package pack1;
+
 class Demo1
 {
 	int a,b;
@@ -20,6 +21,8 @@ class Demo1
 		b=y;
 	}
 }
+
+//Count the total no. of objects
 class Demo {
 	public static void main(String[] args) {
 	Demo1 d1,d2,d3,d4,d5;
