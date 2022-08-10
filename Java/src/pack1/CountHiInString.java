@@ -12,6 +12,7 @@ public class CountHiInString {
 		return count;
 	}
 
+	//Count the 'hi' in String
 	public static void main(String[] args) 
 	{
 		CountHiInString ch= new CountHiInString();
