@@ -34,8 +34,8 @@ public class DemoApp2 {
 		Compute2 ptr;
 		ptr=a;
 		ptr.add();
-		ptr.sub();//ptr.mul()     
-    //gives error because mul() is not a interface method.
+		ptr.sub();
+		//ptr.mul();     //gives error because mul() is not a interface method.
 		((Addition2)(ptr)).mul();
 	}
 }
