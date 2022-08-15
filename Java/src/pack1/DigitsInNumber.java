@@ -1,7 +1,4 @@
 package pack1;
-
-import java.util.Scanner;
-
 public class DigitsInNumber {
 	public static void main(String[] args) {
 	       int n;
