@@ -11,8 +11,6 @@ public class DigitsInNumber {
 	        do {
 	           n = n/10;
 	            count++;
-	        } while (n!=0);
-	        System.out.println(count);
-	        input.close();
+	        } while (n!=0); System.out.println(count);
 	}
 }
