@@ -1,7 +1,5 @@
 package pack1;
 
-import java.util.Scanner;
-
 public class DuckNo {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -17,6 +15,5 @@ public class DuckNo {
 				System.out.println("Given number is not a Duck Number");
 			}
 		}
-		sc.close();
 	}
 }
