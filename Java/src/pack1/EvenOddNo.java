@@ -13,6 +13,6 @@ class EvenOddNo{
 		else{
 			System.out.println("The number entered is odd");
 		}
-		input.close();
+	input.close();
    }
 }
