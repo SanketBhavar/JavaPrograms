@@ -12,7 +12,6 @@ public class ExceptionDemo4 {
 		System.out.println("Exiting Main Normally");
 	}
 }
-
 class Demo4{
 	void fun1()
 	{
