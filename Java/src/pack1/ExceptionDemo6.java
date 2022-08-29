@@ -15,7 +15,6 @@ public class ExceptionDemo6 {
 		}
 	}
 }
-
 class Demo6{
 	void fun1() {
 		System.out.println("Fun1 Connected to DataBase");
