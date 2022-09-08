@@ -1,5 +1,7 @@
 package pack1;
 
+import java.util.Arrays;
+
 public class MaxOfArray {
 	public static void main(String[] args) {
 		int min;
