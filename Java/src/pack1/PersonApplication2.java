@@ -8,6 +8,7 @@ class Heart1{
     	System.out.println("Heart is pumping a Blood");
     }
 }
+
 class Brain1{
     Brain1(){
         System.out.println("Brain is created");
@@ -16,6 +17,7 @@ class Brain1{
     	System.out.println("Brain is still working");
     }
 }
+
 class Knowledge{
     Knowledge(){
         System.out.println("Knowledge is created");
@@ -24,6 +26,7 @@ class Knowledge{
     	System.out.println("Employee working on Knowledge");
     }
 }
+
 class Car1{
 	Car1(){
 		System.out.println("Car created");
@@ -32,6 +35,7 @@ class Car1{
         System.out.println("car can be used for driving");
     }
 }
+
 class Property{
 	Property(){
 		System.out.println("Property created");
@@ -40,6 +44,7 @@ class Property{
 		System.out.println("Person has property");
 	}
 }
+
 class Person2{
         Heart1 h = new Heart1();
         Brain1 b = new Brain1();
@@ -53,6 +58,7 @@ class Person2{
         System.out.println("Person purchesed property");
     }
 }
+
 public class PersonApplication2{
     public static void main(String[]args){
         Person2 p;
@@ -69,6 +75,3 @@ public class PersonApplication2{
         s.getProperty();
     }
 }
-
-
-
