@@ -8,7 +8,6 @@ class Heart1{
     	System.out.println("Heart is pumping a Blood");
     }
 }
-
 class Brain1{
     Brain1(){
         System.out.println("Brain is created");
@@ -25,7 +24,6 @@ class Knowledge{
     	System.out.println("Employee working on Knowledge");
     }
 }
-
 class Car1{
 	Car1(){
 		System.out.println("Car created");
@@ -34,7 +32,6 @@ class Car1{
         System.out.println("car can be used for driving");
     }
 }
-
 class Property{
 	Property(){
 		System.out.println("Property created");
@@ -43,7 +40,6 @@ class Property{
 		System.out.println("Person has property");
 	}
 }
-
 class Person2{
         Heart1 h = new Heart1();
         Brain1 b = new Brain1();
