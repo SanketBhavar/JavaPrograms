@@ -11,25 +11,21 @@ class Plane{
 		System.out.println("Plane is Landing");
 	}
 }
-
 class Cargo extends Plane{
 	void carryCargo() {
 		System.out.println("Carrying Cargo");
 	}
 }
-
 class Passenger extends Plane{
 	void carryPassenger() {
 		System.out.println("Carrying Passengers");
 	}
 }
-
 class Fighter extends Plane{
 	void carryWeapon() {
 		System.out.println("Carrying weapons");
 	}
 }
-
 public class PlaneApplication {
 	public static void main(String[] args) {
 		Cargo c = new Cargo();
