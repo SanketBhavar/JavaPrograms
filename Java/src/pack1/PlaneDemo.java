@@ -2,7 +2,7 @@ package pack1;
 
 class PlaneD{
 	void land() {
-		System.out.println("Plane landed");
+		System.out.println("Plane Landed");
 	}
 }
 
@@ -20,7 +20,7 @@ public class PlaneDemo {
 		PlaneD ref;
 		ref=f;
 		ref.land();
-		//ref.launchMissile(); ---> Error
+		//ref.launchMissile();		 ---> Error
 		((FighterD)(ref)).launchMissile();
 	}
 }
