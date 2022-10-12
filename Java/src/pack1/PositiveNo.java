@@ -8,10 +8,10 @@ public class PositiveNo {
 		 Scanner input= new Scanner(System.in);
 		 n=input.nextInt();
 		 if (n>0){
-			 System.out.println("The number entered is positive");
+			System.out.println("The Number Entered is Positive Number");
 		 }
 		 else{
-		     System.out.println("The number entered is negative");
+			System.out.println("The Number Entered is Negative Number");
 		 }
 		 input.close();
 	 }
