@@ -12,7 +12,6 @@ class Room{
 		System.out.println("Area is "+res);
 	}
 }
-
 class BedRoom extends Room{
 	int h;
 	BedRoom(int x,int y,int z){
@@ -25,10 +24,11 @@ class BedRoom extends Room{
 		System.out.println("Volume is "+res);
 	}
 }
+
 public class RoomApp {
 	public static void main(String[] args) {
 		BedRoom b1;
-		b1 = new BedRoom(10,20,30);
+		b1 = new BedRoom(10, 20, 30);
 		b1.area();
 		b1.volume();
 	}
