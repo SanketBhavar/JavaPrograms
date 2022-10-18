@@ -22,6 +22,7 @@ public class Searching {
                result = (count-1)-i;
            }
        }
-       if (result>=0) System.out.println(result);
+       if (result>=0) 
+          System.out.println(result);
    }
 }
