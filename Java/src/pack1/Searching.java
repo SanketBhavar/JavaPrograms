@@ -23,6 +23,5 @@ public class Searching {
            }
        }
        if (result>=0) System.out.println(result);
-
    }
 }
