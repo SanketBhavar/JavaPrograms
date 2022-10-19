@@ -10,7 +10,6 @@ abstract class Shape{
 		System.out.println("Area is "+area);
 	}
 }
-
 class Square extends Shape{
 	float l;
 	void input() {
@@ -23,7 +22,6 @@ class Square extends Shape{
 		area=l*l;
 	}
 }
-
 class Rectangle extends Shape{
 	float l,b;
 	void input() {
@@ -38,7 +36,6 @@ class Rectangle extends Shape{
 		area=l*b;
 	}
 }
-
 class Circle extends Shape{
 	float r;
 	void input() {
@@ -51,7 +48,6 @@ class Circle extends Shape{
 		area=3.14f*r*r;
 	}
 }
-
 class Geometry{
 	void allowShape(Shape ref) {
 		ref.input();
