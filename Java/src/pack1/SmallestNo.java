@@ -14,22 +14,22 @@ public class SmallestNo {
 	    {
 	        if(n1<n3)
 	        {
-	           System.out.println("The smallest number entered is "+n1);
+	           System.out.println("The Smallest Number Entered is "+n1);
 	        }
 	        else
 	        {
-	           System.out.println("The smallest number entered is "+n3); 
+	           System.out.println("The Smallest Number Entered is "+n3); 
 	        }
 	    }
 	    else
 	    {
 	        if(n2<n3)
 	        {
-	           System.out.println("The smallest number entered is "+n2);
+	           System.out.println("The Smallest Number Entered is "+n2);
 	        }
 	        else
 	        {
-	           System.out.println("The smallest number entered is "+n3); 
+	           System.out.println("The Smallest Number Entered is "+n3); 
 	        }
 	    }
 	    input.close();
