@@ -17,7 +17,6 @@ public class StackExample {
         stack.push(53);
         stack.push(54);
         stack.push(12);
-         //Write your code here. Your stack should finally look like this: [2, 45, 53, 54, 12].
-        System.out.print(stack);
+      	System.out.print(stack);		 //Your stack should finally look like this: [2, 45, 53, 54, 12]
     }
 }
