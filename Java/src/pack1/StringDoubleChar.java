@@ -17,4 +17,3 @@ public class StringDoubleChar {
 		System.out.println(res);
 	}
 }
-
