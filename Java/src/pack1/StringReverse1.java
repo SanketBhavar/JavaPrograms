@@ -8,6 +8,7 @@ public class StringReverse1 {
 		String str=sc.nextLine();
 		String rev="",rev1="";
 		int len=str.length();
+		
 		//1st way
 		for(int i=len-1;i>=0;i--)
 		{
@@ -15,6 +16,7 @@ public class StringReverse1 {
 		}
 		System.out.println(rev);
 		System.out.println();
+		
 		//2nd way
 		char a[]=str.toCharArray();
 		int len1=a.length;
