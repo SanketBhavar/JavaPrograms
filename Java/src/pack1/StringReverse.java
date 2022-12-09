@@ -2,8 +2,10 @@ package pack1;
 
 public class StringReverse {
 	public static void main(String[] args) {
+		
 		String str="Welcome To Java Programming";
 		String str1[]=str.split(" ");
+		
 		for(String temp:str1) {
 			System.out.println(temp);
 		}
