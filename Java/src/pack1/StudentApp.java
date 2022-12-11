@@ -20,5 +20,11 @@ public class StudentApp {
 		System.out.println(s1.age);
 		System.out.println(s1.height);
 		
+		Student s2;
+		s2=new Student();
+		s2.setData("abhi", 19, 5.5f);
+		System.out.println(s2.name);
+		System.out.println(s2.age);
+		System.out.println(s2.height);
 	}
 }
