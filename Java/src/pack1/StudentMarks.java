@@ -10,6 +10,27 @@ public class StudentMarks {
 	    name = input.nextLine();
 	    marks = input.nextInt();
 	   
-	    input.close();
+	   if(marks>=75 && marks<=100)
+	    {
+	    	System.out.println("The grade scored by " + name + " is A");	//First Class with Distinction
+	    }
+	    else if(marks>=60 && marks<75)
+	    {
+	        System.out.println("The grade scored by " + name + " is B");	//First Class
+	    }
+	    else if(marks>=50 && marks<60)
+	    {
+	        System.out.println("The grade scored by " + name + " is C");	//Second Class
+	    }
+	    else if(marks<=35)
+	    {
+	        System.out.println("The grade scored by " + name + " is D");	//Pass Class
+	    }
+	    else 
+	    {
+	        System.out.println("The grade scored by " + name + " is F");	//Fail
+	    }
+	   
+	  input.close();
 	}
 }
