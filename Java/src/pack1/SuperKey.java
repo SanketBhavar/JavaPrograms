@@ -3,7 +3,6 @@ package pack1;
 class A{
 	int i;
 }
-
 class B extends A{
 	int i;
 	void setData(int x, int y) {
