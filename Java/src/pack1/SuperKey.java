@@ -1,12 +1,14 @@
 package pack1;
+
 class A{
 	int i;
 }
+
 class B extends A{
 	int i;
 	void setData(int x, int y) {
 		super.i=x;
-			  i=y;
+		i=y;
 	}
 	void display() {
 		System.out.println("A's i is "+super.i);
@@ -21,4 +23,3 @@ public class SuperKey {
 		b1.display();
 	}
 }
-
