@@ -19,6 +19,8 @@ public class ThreeDArray {
 				}
 			}
 		}
+		
+		//Displying the Array Elements.
 		for(i=0;i<=a.length-1;i++)
 		{
 			for(j=0;j<=a[i].length-1;j++)
