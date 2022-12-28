@@ -35,4 +35,4 @@ public class TypeCasting1 {
 		TypeCasting1 aobj1=new TypeCasting1();
 		aobj1.meth2();
 	}
-}
+
