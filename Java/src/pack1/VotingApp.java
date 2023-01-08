@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class VotingApp {
 	public static void main(String[] args) {
-		int age, vote;
+	    int age, vote;
 	    Scanner input= new Scanner(System.in);
 	    age=input.nextInt();
 	    vote=input.nextInt();
