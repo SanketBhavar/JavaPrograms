@@ -8,7 +8,6 @@ public class VotingApp {
 	    Scanner input= new Scanner(System.in);
 	    age=input.nextInt();
 	    vote=input.nextInt();
-		
 	    if (age>=18){
 	       if(vote==1)
 	       {
@@ -24,7 +23,7 @@ public class VotingApp {
 	       }
 	     }
 	     else{
-	        System.out.println("You are not eligible");
+	        System.out.println("You are not Eligible");
 	     }
 	    input.close();
 	}
