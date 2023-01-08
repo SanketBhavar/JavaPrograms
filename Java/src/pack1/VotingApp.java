@@ -8,6 +8,7 @@ public class VotingApp {
 	    Scanner input= new Scanner(System.in);
 	    age=input.nextInt();
 	    vote=input.nextInt();
+		
 	    if (age>=18){
 	       if(vote==1)
 	       {
